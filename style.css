@@ -1,0 +1,200 @@
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(3, 168, 168);
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-width: 1500px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.Header {
+    display: flex;
+    background-color: rgb(207, 87, 107);
+    align-items: center;
+    justify-content: space-around;
+    flex-basis: 40px;
+    padding-inline: 16px;
+    margin-inline: 8px;
+    margin-top: 8px;
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: 34px;
+    color: rgb(250, 250, 250);
+    font-style: italic;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 171, 214);
+    padding: 8px;
+    height: 125px;
+    margin-inline: 8px;
+}
+
+.title, p, .servicio, .motivation, .firma {
+    color: rgb(250, 250, 250);
+} 
+
+.title {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.info-description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 0;
+    margin-inline: 50px ;
+}
+
+.logoimg {
+    max-width: 180px;
+}
+
+.detalle {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(250, 250, 250);
+    font-style: italic;
+    font-weight: 900;
+    font-size: 30px;
+    margin: 16px 0px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;  
+}
+.catalogo1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 20px;
+}
+
+.servicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    flex-basis: 200px;
+    height: 320px;
+    border: 2px solid rgba(0, 92, 92, 0.212);
+    padding: 5px;
+
+}
+
+p.Proximamente {
+    text-align: center;
+    color: rgb(245, 245, 245);
+    background-color: red;
+}
+
+.image {
+    max-width: 200px;
+
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px  ;
+    background-color: rgba(38, 142, 190, 0.712);
+}
+
+.motivation {
+    font-size: 20px;
+    height: 50px;
+    margin-inline: 50px;
+    margin-top: 8px;
+    padding: 8px;
+}
+
+.firma {
+    margin-bottom: 8px;
+    margin-right: 8px;
+    align-self: flex-end;
+}
+.contact-container {
+display: flex;
+padding: 20px;
+gap: 8px;
+background-color: rgba(3, 14, 37, 0.582);
+margin-inline: 0;
+justify-content: flex-start;
+align-items: center;
+gap: 16px;
+color: aliceblue;
+}
+
+input {
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    padding: 8px 24px;
+  }
+
+button {
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    color: aliceblue;
+    background: rgb(207, 87, 107);
+    padding: 5px 16px;
+  }
+
+  button.Facebook {
+    background: rgb(11, 33, 161);
+    border: solid blue;
+  }
+  button.Whastsapp {
+    background: rgb(22, 133, 22);
+    border: solid green;
+  }  
+  button.Instagram {
+    background: rgb(173, 28, 52);
+    border: solid rgb(173, 28, 52);
+  }
+  button.Ordena-linea {
+    background-color: rgb(7, 226, 7);
+    margin-left: auto;
+
+  }
+
+/* to remove list points and link's bards */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+li {
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
