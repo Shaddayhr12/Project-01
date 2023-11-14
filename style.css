@@ -1,19 +1,23 @@
+@forward "globals";
+
 body {
-    height: 100vh;
     margin: 0;
-    overflow: hidden;
     display: flex;
     justify-content: center;
     background-color: rgb(3, 168, 168);
+    
 }
 
 .all {
     display: flex;
     flex-direction: column;
-    height: 100vh;
     max-width: 1500px;
     margin: 0;
     overflow: hidden;
+}
+
+.Header, .description, .servicio, .quote {
+    border-radius: 8px;
 }
 
 .Header {
@@ -42,7 +46,7 @@ body {
     align-items: center;
     background-color: rgb(235, 171, 214);
     padding: 8px;
-    height: 125px;
+    height: 300px;
     margin-inline: 8px;
 }
 
@@ -122,6 +126,7 @@ p.Proximamente {
     align-items: center;
     gap: 15px  ;
     background-color: rgba(38, 142, 190, 0.712);
+    margin: 10px;
 }
 
 .motivation {
@@ -137,16 +142,31 @@ p.Proximamente {
     margin-right: 8px;
     align-self: flex-end;
 }
+
+.footer {
+    display: flex;
+    background-color: rgba(3, 14, 37, 0.582);
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
 .contact-container {
 display: flex;
 padding: 20px;
 gap: 8px;
-background-color: rgba(3, 14, 37, 0.582);
 margin-inline: 0;
 justify-content: flex-start;
 align-items: center;
 gap: 16px;
 color: aliceblue;
+}
+
+.ubicacion {
+    color: aliceblue;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 input {
